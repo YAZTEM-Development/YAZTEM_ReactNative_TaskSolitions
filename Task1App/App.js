@@ -8,8 +8,7 @@ export default function App() {
       <Text style={styles.bottomText}>Bu yazı renkli bir yazı.</Text>
     </View>
   );
-}
-/* Bu çözüm flex yapısıyla gerçekleştirilmiştir. absolute bir pozisyonda top,left,right,bottom değerleriyle de istenilen görevi
+}/* Bu çözüm flex yapısıyla gerçekleştirilmiştir. absolute bir pozisyonda top,left,right,bottom değerleriyle de istenilen görevi
 gerçekleştirebilirdik. Ancak stil kısmını bu çözümden uzun tutmamızla sonuçlanırdı. Flex yapısıyla cihazımızın ekranını belirli parçalara bölebiliriz. 
 Flex ile sarmalanan bir yapı ekranda kaplayabildiği kadar alan kaplar. Kendi bünyesi dışında olan her şeyi ekranda itebildiği kadar iter.
 Bu çözümde dıştaki container'ın flex:1 olmasının nedeni tüm ekranımızı kaplamamız gerektiğindendir. Çünkü arkaplan rengini ekranın tamamına uygulamamız gerekir.
